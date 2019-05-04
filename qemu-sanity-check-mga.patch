@@ -1,0 +1,12 @@
+diff -up ./qemu-sanity-check.in.tv ./qemu-sanity-check.in
+--- ./qemu-sanity-check.in.tv	2018-03-26 14:11:05.735430925 +0200
++++ ./qemu-sanity-check.in	2018-03-26 14:22:16.677700853 +0200
+@@ -106,7 +106,7 @@ fi
+ 
+ # Locate kernel if not specified.
+ if [ -z "$kernel" ]; then
+-    kernel="$(ls -1dvr /boot/vmlinuz-*.$arch* 2>/dev/null | grep -v xen | head -1)"
++    kernel="$(ls -1dvr /boot/vmlinuz-* 2>/dev/null | grep -v xen | head -1)"
+     if [ -z "$kernel" ]; then
+         echo "$0: cannot find a Linux kernel in /boot"
+         echo "Choose a kernel to test using --kernel=/path/to/vmlinuz"
