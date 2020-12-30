@@ -5,8 +5,8 @@
 %global debug_package %{nil}
 
 Name:            qemu-sanity-check
-Version:         1.1.5
-Release:         %mkrel 2
+Version:	1.1.6
+Release:	1
 Summary:         Simple qemu and Linux kernel sanity checker
 Group:		Emulators
 License:         GPLv2+
