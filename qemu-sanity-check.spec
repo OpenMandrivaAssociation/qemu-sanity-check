@@ -6,7 +6,7 @@
 
 Name:            qemu-sanity-check
 Version:	1.1.6
-Release:	1
+Release:	2
 Summary:         Simple qemu and Linux kernel sanity checker
 Group:		Emulators
 License:         GPLv2+
