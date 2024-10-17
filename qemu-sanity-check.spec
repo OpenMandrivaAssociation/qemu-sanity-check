@@ -11,7 +11,7 @@ Summary:         Simple qemu and Linux kernel sanity checker
 Group:		Emulators
 License:         GPLv2+
 
-URL:             http://people.redhat.com/~rjones/qemu-sanity-check
+URL:             https://people.redhat.com/~rjones/qemu-sanity-check
 Source0:         http://people.redhat.com/~rjones/qemu-sanity-check/files/%{name}-%{version}.tar.gz
 
 # Non-upstream patch to disable test which fails on broken kernels
