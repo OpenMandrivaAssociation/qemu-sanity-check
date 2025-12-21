@@ -21,6 +21,8 @@ Patch4:          0004-Disable-bad-userspace-test-Fedora-only.patch
 Patch100: qemu-sanity-check-mga.patch
 
 # Because the above patch touches configure.ac/Makefile.am:
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires:   autoconf, automake
 
 # For building the initramfs.
